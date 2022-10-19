@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor:pointer;
+  background-color:green;
+}
+
+</style>
+    </style>
+</head>
+<body>
+    <button type="button" onclick="window.location.href='https://docs.google.com/document/d/1HE0BxtqE8r1Gxhu-0oemHEtGpPiBCYuboxYvrjWInxg/edit'">Click here to view Resume</button>
+    <br>
+    <br>
+    <br>
+    <h1>You can also VIEW in console=====></h1>
+    <script>
+        let myresume=[
+            {"Name":"Sriram"},
+            {"place":"guvi","task":"3"},
+             {"Mail":"sriramjs07@gmail.com"},
+            {"schooling":"Skp hss udumalpet",
+            "year":"2012"},
+                {"Degree":"B.E",
+            "Department":"EEE",
+        "Year of passed out":"2016"},
+    {"Experience":"3 yrs of work experience as fiber technician"},
+{"area of interest":"programming"}]
+console.log("\n","                ","MY RESUME")
+console.log(myresume[0],"               ",myresume[1]);
+console.log(myresume[2]);
+console.log(myresume[3]);
+console.log(myresume[4]);
+console.log(myresume[5]);
+console.log(myresume[6]);
+let b=JSON.stringify(myresume);
+console.log("\n","JSON FORMAT","\n",b);
+    </script>
+    
+</body>
+</html>
