@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let obj = [
+    {"day1":"monday"},
+    {"day2":"tuesday"},
+    {"day3":"wednesday"},
+    {"day4":"thursday"},
+    {"day5":"friday"},
+    {"day6":"saturday"},
+    {"day7":"sunday"}
+]
+
+console.log("for the given JSON","\n","for loop")
+
+    for(let i=0;i<obj.length;i++)
+    {console.log(obj[i])}
+
+console.log("\n","for in loop")
+
+    for (let key in obj){
+    console.log(key)}
+
+console.log("\n","for of loop")
+
+    for (let index of obj){
+    console.log(index);
+    }
+
+console.log("\n","foreach")
+
+    obj.forEach((value,element)=> console.log(element,value))
+    </script>
+</body>
+</html>
